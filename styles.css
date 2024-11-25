@@ -1,25 +1,32 @@
-
-/* Your CSS Code here. */
-/* Basic styles for the movie page */
+/* Basic styles for the page */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 header {
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
 }
 
 nav {
     background-color: #444;
-    text-align: center;
     padding: 10px 0;
+    text-align: center;
 }
 
 nav ul {
@@ -36,6 +43,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1.1em;
 }
 
 section {
@@ -43,6 +51,20 @@ section {
     margin: 20px;
     background-color: white;
     border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
 }
 
 aside {
@@ -50,6 +72,12 @@ aside {
     margin: 20px;
     background-color: #e2e2e2;
     border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+aside h3 {
+    font-size: 1.6em;
+    color: #333;
 }
 
 footer {
@@ -60,4 +88,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: 1em;
 }
